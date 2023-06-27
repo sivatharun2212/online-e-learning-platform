@@ -1,0 +1,61 @@
+.sideBar {
+      width: 250px;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+}
+
+
+.container {
+      width: 80%;
+      height: 90%;
+      background-color: var(--primary-blue-alpha);
+      border-radius: 15px;
+      padding: 30px 20px;
+}
+
+.linksList {
+      width: 100%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      padding: px;
+}
+
+.activePage {
+      background-color: white;
+}
+
+
+.pageTitle {
+      color: var(--primary-blue);
+      font-size: 18px;
+      font-family: 'Poppins', sans-serif; ;
+      font-weight: 600;
+      cursor: pointer;
+}
+
+
+
+
+
+
+.titleBackGround {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+}
+
+.dividerLine {
+      width: 3px;
+      height: 90%;
+      background-color: var(--primary-blue);
+      border-radius: 2px;
+      position: absolute;
+      right: 0px;
+}

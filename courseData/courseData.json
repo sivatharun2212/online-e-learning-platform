@@ -1,0 +1,609 @@
+{
+      "courses":[
+            {
+                  "title": "Python Programming",
+                  "courseId":1,
+                  "description": {
+                      "description1": "The Python Programming Fundamentals course is designed to provide students with a comprehensive understanding of the Python programming language. Whether you are a beginner or have some prior programming experience, this course will equip you with the necessary knowledge and skills to become proficient in Python.",
+                      "description2": "The course begins with an introduction to Python, covering topics such as variables, data types, operators, and control flow statements. You will learn how to write your first Python programs and understand the basic syntax and structure of the language.",
+                      "description3": "As the course progresses, you will dive deeper into more advanced Python concepts. Topics covered include functions, modules, file handling, exception handling, and object-oriented programming (OOP) principles. You will gain hands-on experience in developing Python applications that are efficient, maintainable, and scalable.",
+                      "description4": "Whether your goal is to pursue a career in software development, data analysis, or web development, this Python Programming Fundamentals course will provide you with the essential skills and knowledge to excel in your chosen field. Get ready to unleash the power of Python and take your programming abilities to new heights!"
+                  },
+                  "concepts":[
+                        {
+                              "conceptTitle": "Basic Concepts",
+                              "conceptsId":1.1,
+                              "lessons":[
+                                    {
+                                          "lessonNo":1,
+                                          "lessonId":101,
+                                          "lesson":[
+                                                {
+                                                      "topicTitle":"Your First Lesson",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "Welcome to Python",
+                                                                  "notes1": "Python is one of the most popular programming languages, widely used in web and game development, data analytics, data science, machine learning and much more.",
+                                                                  "notes2": "This course will get you coding your own programs in no time, in the simplest way, so you can solve real-world problems and build your own applications."
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Why Python",
+                                                                  "notes1": "Python has a simple syntax, which means you'll be able to learn it quickly and put it to use after just a few lessons.",
+                                                                  "notes2": "The example code shows the average salary in US dollars of an entry-level Python programmer, plus a 15% annual bonus.Press the code block to open the Code Playground, then press run to see the result on the screen.",
+                                                                  "note1":null
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Output",
+                                                                  "notes1": "The print command is the easiest way to send a specified message to the screen or other display device. This message or output can be a number, text, or the result of a calculation.Run the code below to see the output.",
+                                                                  "note1":"The print command is always followed by parentheses containing the output we want to send to the screen."
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Printing Text",
+                                                                  "notes1": "Computers treat text and numbers differently. When printing text outputs, you need to enclose the text in either single or double quotes:",
+                                                                  "notes2": "The text in quotes is called string.",
+                                                                  "notes3": "There are situations where you might want to print multiple messages in your code. Each print statement outputs text in a new line.",
+                                                                  "note1":"The quotes enclosing the text need to be the same, either both single or both double. If you forget to add the quotes or if the quotes are not the same, Python will return an error.",
+                                                                  "note2":"Python gets its name from the BBC comedy TV series Monty Python because its creator thought he needed a name that was short, unique, and slightly mysterious."
+                                                            }
+      
+      
+                                                      ]
+                                                    
+                                                },
+                                                {
+                                                      "topicTitle":"Simple Operations",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "Simple Operations",
+                                                                  "notes1": "So Python can spell, but can it count? Let’s talk about calculations.Doing a calculation in Python is simple, just enter it into the print statement:",
+                                                                  "note1":"See the spaces around the plus and minus signs? The code will work without them –  but including them makes it a lot easier to read."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Multiplication",
+                                                                  "notes1": "Multiplication is done using an asterisk symbol *"
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Division",
+                                                                  "notes1": "Division is done using a slash",
+                                                                  "note1":"Using a single slash to divide numbers always produces a decimal (or float, as it is called in programming), even if the result is a whole number."
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Negative Numbers",
+                                                                  "notes1": "You can use the minus sign in front of a number to make it negative"
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Simple Operations",
+                                                                  "notes1": "One of the things that is great about Python is that it can perform operations with really big numbers.For example, let's calculate 123456789 times 12345:",
+                                                                  "note1":"Run the code to see the resulting number."
+                                                            }
+                                                      ]
+                                                    
+                                                },
+                                                {
+                                                      "topicTitle":"Data Types",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "Data Types",
+                                                                  "notes1": "Before continuing, it's a good idea to introduce the main data types that we use in Python. Each value in Python has a type.Text in quotes, like \"Hello World\" is called a string.",
+                                                                  "note1":"As we have seen, we can use single or double quotes to create strings."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Integers",
+                                                                  "notes1": "Whole numbers are called integers. We can output integers with the print statement:",
+                                                                  "notes2": "You can add, subtract and multiply integers, producing another integer as a result.",
+                                                                  "note1":"Tap to run and change the code to output the result of multiplying 42 by 77."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Floats",
+                                                                  "notes1": "In the previous lesson, we learned that, dividing two integers produces a decimal, which is called a float.",
+                                                                  "notes2": "You can perform mathematical operations with floats, just like with integers:",
+                                                                  "note1":"The result of division is always a float, even if the result has no remainder.",
+                                                                  "note2":"Important: When you add an integer to a float, the result is always a float."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Data Types",
+                                                                  "notes1": "Let's summarize what we have learned.Integers are whole numbers, such as 8 and 42.Floats are numbers with a decimal point, like 3.14.Strings are text enclosed in single or double quotes.",
+                                                                  "note1":"Dividing with a slash produces a float, even if you divide whole numbers."
+
+                                                            }
+                                                           
+                                                      ]
+                                                    
+                                                },
+                                                {
+                                                      "topicTitle":"Mathematical Operations",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "Exponentiation",
+                                                                  "notes1": "Two asterisks ** are used to raise a number to the power of another, which is called exponentiation.",
+                                                                  "notes2": "You can chain exponentiations together. In other words, you can raise a number to a power, which can also be raised to a power.",
+                                                                  "notes3": "We can also use floats in exponentiation.Check it out. The following code will result in the square root of 9:",
+                                                                  "note1":"The result will be a float."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Floor Division",
+                                                                  "notes1": "As we have seen, dividing two numbers always produces a float.In case we want to find the quantity produced by the division of two numbers as an integer (also called the quotient), we can use the floor division operator //",
+                                                                  "note1":"The code above will output 3, because 6 goes into 20 three times."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Remainder",
+                                                                  "notes1": "If we want to find only the remainder in a division, we use the modulo operator %:",
+                                                                  "note1":"Practice Task: Change the code to output the remainder of 1024 divided by 42."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Quotient & Remainder",
+                                                                  "notes1": "We can also use the floor division and modulo operators with floats:"
+                                                            }
+                                                           
+                                                      ]
+                                                }
+
+                                          ]
+                                    },
+                                    {
+                                          "quizzes":{
+                                                "quizId":"q1",
+                                                "quiz":[
+                                                      {
+                                                            "quizQuestion":"what is the result of the following operation ?   print(1+4*3)",
+                                                            "quizOPtions":{
+                                                                  "opt1":15,
+                                                                  "opt2":13,
+                                                                  "opt3":12
+                                                            },
+                                                            "correctAnswer":"opt2"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"which of the following operation is used to calculate the remainder in division ?",
+                                                            "quizOPtions":{
+                                                                  "opt1":"//",
+                                                                  "opt2":"**",
+                                                                  "opt3":"%",
+                                                                  "opt4":"/"
+                                                            },
+                                                            "correctAnswer":"opt3"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"select the option that represents a string",
+                                                            "quizOPtions":{
+                                                                  "opt1":7.0,
+                                                                  "opt2":"true",
+                                                                  "opt3":"some text",
+                                                                  "opt4":42
+                                                            },
+                                                            "correctAnswer":"opt3"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"which of the following is a float ?",
+                                                            "quizOPtions":{
+                                                                  "opt1":"'6.4'",
+                                                                  "opt2":"111",
+                                                                  "opt3":"8",
+                                                                  "opt4":3.14
+                                                            },
+                                                            "correctAnswer":"opt4"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"remainder, division results in a decimal. what is the output of this code ?  print((4+8)/2)",
+                                                            "quizOPtions":{
+                                                                  "opt1":6.0,
+                                                                  "opt2":6,
+                                                                  "opt3":8
+                                                            },
+                                                            "correctAnswer":"opt1"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"what is the output of this code ?  print((-5-1)*3)",
+                                                            "quizOPtions":{
+                                                                  "opt1":18,
+                                                                  "opt2":-12,
+                                                                  "opt3":12,
+                                                                  "opt4":-18
+                                                            },
+                                                            "correctAnswer":"opt4"
+                                                      }
+                                                ]
+                                          }
+                                    }
+                              ]
+
+                        },
+                        {
+                              "conceptTitle": "Strings",
+                              "conceptsId":1.2,
+                              "lessons":[
+                                    {
+                                          "lessonNo":2,
+                                          "lessonId":102,
+                                          "lesson":[
+                                                {
+                                                      "topicTitle":"Strings",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "Strings",
+                                                                  "notes1": "We met strings in module 1, but now it’s time to get better acquainted.",
+                                                                  "notes2": "Remember, we can create a string by entering text between two single or double quotation marks. Like this:",
+                                                                  "notes3": "Everything in quotes is a string, even numbers.For example:",
+                                                                  "note1":"The delimiter (' or ') used for a string doesn't affect how it behaves in any way.",
+                                                                  "note2":"In the code above, 42 is a string, not an integer."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Back slash",
+                                                                  "notes1": "In Python, the backslash \\ is a special character, called the escape character. It is used to represent certain things in a string, such as new lines, tabs, and other useful things.",
+                                                                  "notes2": "If you want to include a quote in a string, you need to escape it using a backslash.",
+                                                                  "notes3": "You can do the same for double quotes.For example:",
+                                                                  "note1":"Backslashes that we use for escaping don't get displayed in the output."
+                                                            }
+                                                      ]
+                                                    
+                                                },
+                                                {
+                                                      "topicTitle":"Special Characters",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "NewLines",
+                                                                  "notes1": "The backslash is also used to create new lines in text.To create a new line we use \n.",
+                                                                  "notes2": "\n is useful, but it can be cumbersome if we're trying to format lots of multiline text.There's another way though! Newlines are automatically added for strings created using three quotes.",
+                                                                  "note1":"This makes it easier to format long, multi-line texts without the need to explicitly put \n for line breaks."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Tab",
+                                                                  "notes1": "Similar to a new line, we can create a tab using \t:"
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Carriage Return",
+                                                                  "notes1": "\r is the carriage return symbol:",
+                                                                  "note1":"\r is used to shift the cursor to the beginning of the line, however it might not work as expected in all Python environments."
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Escaping",
+                                                                  "notes1": "What if we need to include the special character in our output? For example, what if we want to have \n in the output. In that case, we simply need to escape it using another backslash:"
+                                                            },
+                                                            {
+                                                                  "notesTitle": "\\n Vs \\r",
+                                                                  "notes1": "What is the difference between \n and \r? \n is the newline character, while \r is the carriage return. They differ in what uses them. Windows uses \r\n to signify the enter key was pressed, while Linux and Unix use \n."
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Three Quotes",
+                                                                  "notes1": "When you use three quotes to create text, quotes do not need to be escaped:"
+                                                            }
+                                                      ]
+                                                    
+                                                },
+                                                {
+                                                      "topicTitle":"String operations",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "Concatenation",
+                                                                  "notes1": "In Python math works with words as well as numbers.So not only can we add integers and floats, but also strings, using something called concatenation, which can be done on any two strings. Like this:",
+                                                                  "notes2": "Strings containing numbers are still added as strings rather than integers. Like this:",
+                                                                  "note1":"But don't try to add a string to a number! Even though they might look similar, they are two different entities, so doing this will break the code and produce an error."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "String Operations",
+                                                                  "notes1": "You may not be able to add strings to integers, but you can multiply by them!Multiplying a string by an integer, produces a repeated version of the original string. Like this:",
+                                                                  "notes2": "But don't try to multiply a string by another string. This will just generate an error.",
+                                                                  "note1":"The same will happen if you try to multiply a string by a float, even if the float is a whole number."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Summary",
+                                                                  "notes1": "Some key points: You can include special symbols in a string using the backslash: \n for new lines, \t for tabs, etc.In case you need to include quotes, you need to escape them using a backslash.",
+                                                                  "note1":"You can add strings together using the plus operator, as well as multiply a string with an integer, resulting in a repeated version of the string."
+
+                                                            }
+                                                           
+                                                      ]
+                                                    
+                                                }
+                                          ]
+                                    },
+                                    {
+                                          "quizzes":{
+                                                "quizId":"q2",
+                                                "quiz":[
+                                                      {
+                                                            "quizQuestion":"which of the following is a string ?",
+                                                            "quizOPtions":{
+                                                                  "opt1":42.0,
+                                                                  "opt2":"'42'",
+                                                                  "opt3":42
+                                                            },
+                                                            "correctAnswer":"opt"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"what is the output of this code ?   print('42'+'5')",
+                                                            "quizOPtions":{
+                                                                  "opt1":47,
+                                                                  "opt2":"error",
+                                                                  "opt3":42.5,
+                                                                  "opt4":425
+                                                            },
+                                                            "correctAnswer":"opt4"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"which of the following is the escape character ?",
+                                                            "quizOPtions":{
+                                                                  "opt1":"backward slash",
+                                                                  "opt2":"*",
+                                                                  "opt3":"forward slash",
+                                                                  "opt4":"+"
+                                                            },
+                                                            "correctAnswer":"opt1"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"what is the output of this code ?   print('4'+'3')",
+                                                            "quizOPtions":{
+                                                                  "opt1":"error",
+                                                                  "opt2":7,
+                                                                  "opt3":43
+                                                            },
+                                                            "correctAnswer":"opt3"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"let's check how well you remember the operators. what is the output of this code ?   print(('A'+'B')*(1+2))",
+                                                            "quizOPtions":{
+                                                                  "opt1":"AAAA",
+                                                                  "opt2":"ABAB",
+                                                                  "opt3":"AAABBB",
+                                                                  "opt4":"ABABAB"
+                                                            },
+                                                            "correctAnswer":"opt4"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"adding string together is called",
+                                                            "quizOPtions":{
+                                                                  "opt1":"concatenation",
+                                                                  "opt2":"exponentiation",
+                                                                  "opt3":"escaping",
+                                                                  "opt4":"repeating"
+                                                            },
+                                                            "correctAnswer":"opt1"
+                                                      }
+                                                ]
+                                          }
+                                    }
+                              ]
+                        },
+                        {
+                              "conceptTitle": "Variables",
+                              "conceptsId":1.3,
+                              "lessons":[
+                                    {
+                                          "lessonNo":3,
+                                          "lessonId":103,
+                                          "lesson":[
+                                                {
+                                                      "topicTitle":"Variables",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "Variables",
+                                                                  "notes1": "A variable lets you store a value by assigning it to a name. The name can be used to refer to the value later in the program.",
+                                                                  "notes2": "To assign a variable, use one equals sign.",
+                                                                  "note1":"For example, in game development, you would use a variable to store how many points the player has scored.",
+                                                                  "note2":"In the example above we assigned string 'James' to a variable called user."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Variables",
+                                                                  "notes1": "The equal sign is called the assignment operator and is used to assign a value to a variable.  You can assign any type of value to your variable:"
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Variable Names",
+                                                                  "notes1": "Naming your variables is pretty flexible. You can use letters, numbers, and underscores in variable names. But you can't use special symbols, or start the name with a number.",
+                                                                  "note1":"Remember, Python is a case sensitive language. Which means Lastname and lastname are two different variable names."
+                                                            }
+                                                      ]
+                                                    
+                                                },
+                                                {
+                                                      "topicTitle":"Working With Variables",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "Working With Variables",
+                                                                  "notes1": "So, you’ve got your variable and named it. You’re now free to use them to perform corresponding operations, just as you do with numbers and strings. Like this:",
+                                                                  "notes2": "Need to change the value of a variable? Easy. Variables can be reassigned as many times as you want. Like this:",
+                                                                  "note1":"You can see that the variable stores its value throughout the program.",
+                                                                  "note2":"But beware! Overwriting the same variable with different data types is generally not a good practice. To avoid mistakes, try to avoid doing it."
+
+                                                            },
+                                                            {
+                                                                  "notesTitle": "Working With Variables",
+                                                                  "notes1": "A program can include multiple variables, which can be used together to produce a result.",
+                                                                  "notes2": "You can use the del statement to remove a variable.",
+                                                                  "notes3": "Deleted variables can be reassigned.",
+                                                                  "note1":"Trying to use the deleted variable causes an error."
+
+                                                            }
+                                                      ]
+                                                    
+                                                },
+                                                {
+                                                      "topicTitle":"Taking User Input",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "Input",
+                                                                  "notes1": "Some programs need to take input from the user.For example, a game can ask for the user's name and age as input and then use them in the game.he input() function prompts the user for input, and returns what they enter as a string. Like this:",
+                                                                  "notes2": "Even if the user enters a number as input, it's processed as a string:",
+                                                                  "notes3": "The input statement needs to be followed by parentheses.",
+                                                                  "notes4": "You can provide a string to input() between the parentheses, producing a prompt message.",
+                                                                  "note1":"The prompt message tells the user what input the program is requesting – so it’s important to make sure it’s clear."
+
+                                                            }
+                                                      ]
+                                                    
+                                                },
+                                                {
+                                                      "topicTitle":"Working With Input",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "Input",
+                                                                  "notes1": "So we know that the input() function returns a string. But what if we need it to be something else, like a number? No problem, we can totally do that!Let's assume we’ve taken the age of the user as an input.  To convert it to a number, we can use the int() function:",
+                                                                  "notes2": "Similar to the int() function, the float() function converts a string to a float:",
+                                                                  "notes3": "Sometimes there is a need to use a number in a string concatenation.This can be done using the str() function, which converts a number to a string.",
+                                                                  "notes4": "The last thing to mention is that you can use input() multiple times to take multiple user inputs.",
+                                                                  "note1":"This will turn it from a string to an integer. Simple, right?"
+
+                                                            }
+                                                           
+                                                      ]
+                                                },
+                                                {
+                                                      "topicTitle":"In-place Operators",
+                                                      "topicNotes":[
+                                                            {
+                                                                  "notesTitle": "In-place Operators",
+                                                                  "notes1": "In-place operators let you write code like 'x = x + 3' more concisely, as 'x += 3'.",
+                                                                  "notes2": "In-place operators can be used for any numerical operation (+, -, , /, %, *, //).Some examples:",
+                                                                  "notes3": "You can also use in-place operators for string concatenation:",
+                                                                  "notes4": "We have covered a number of important topics, such as variables, input and operators. These can be used together to make a more complex program.For example, let's make a program that takes miles as input and outputs the corresponding km value:"
+                                                            }
+                                                      ]
+                                                    
+                                                }
+
+                                          ]
+                                    },
+                                    {
+                                          "quizzes":{
+                                                "quizId":"q3",
+                                                "quiz":[
+                                                      {
+                                                            "quizQuestion":"A variable has a name and a",
+                                                            "quizOPtions":{
+                                                                  "opt1":"value",
+                                                                  "opt2":"nickname",
+                                                                  "opt3":"key"
+                                                            },
+                                                            "correctAnswer":"opt1"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"which of these is a valid variable name in Python",
+                                                            "quizOPtions":{
+                                                                  "opt1":123,
+                                                                  "opt2":"a-variable%name",
+                                                                  "opt3":"A_VARIABLE_NAME"
+                                                            },
+                                                            "correctAnswer":"opt3"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"what does input() produce ?",
+                                                            "quizOPtions":{
+                                                                  "opt1":"an integer",
+                                                                  "opt2":"a string",
+                                                                  "opt3":"a float",
+                                                                  "opt4":"a boolean"
+                                                            },
+                                                            "correctAnswer":"opt2"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"what is the output of this code ?  fruit = 'apple'  print(fruit * 3)",
+                                                            "quizOPtions":{
+                                                                  "opt1":"fruitfruitfruit",
+                                                                  "opt2":"appleappleapple",
+                                                                  "opt3":"mangomangomango"
+                                                            },
+                                                            "correctAnswer":"opt2"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"what is the output of this code ?   a=2.56 b=int(a) print(b)",
+                                                            "quizOPtions":{
+                                                                  "opt1":2,
+                                                                  "opt2":2.56,
+                                                                  "opt3":"a",
+                                                                  "opt4":56
+                                                            },
+                                                            "correctAnswer":"opt1"
+                                                      },
+                                                      {
+                                                            "quizQuestion":"which of the following is a assignment operator ?",
+                                                            "quizOPtions":{
+                                                                  "opt1":"+",
+                                                                  "opt2":"=",
+                                                                  "opt3":"=="
+                                                            },
+                                                            "correctAnswer":"opt2"
+                                                      }
+                                                ]
+                                          }
+                                    }
+                              ]
+                        },
+                        {
+                              "conceptTitle": "Control Flow",
+                              "conceptsId":1.4,
+                              "lessons":[
+                                    
+                              ]
+                        },
+                        {
+                              "conceptTitle": "Lists",
+                              "conceptsId":1.5,
+                              "lessons":[
+                                    
+                              ]
+                        },
+                        {
+                              "conceptTitle": "Functions",
+                              "conceptsId":1.6,
+                              "lessons":[
+                                    
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "title": "JavaScrip Fundamentals",
+                  "courseId":2
+            },
+            {
+                  "title": "C Programming",
+                  "courseId":3
+            }
+      ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

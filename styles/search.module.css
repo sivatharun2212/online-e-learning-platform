@@ -1,0 +1,17 @@
+.input {
+      width: 600px;
+      height: 40px;
+      border: none;
+      background-color: var(--primary-blue-alpha);
+      outline: none;
+      border-radius: 20px;
+      padding-left: 20px;
+      color: var(--primary-blue);
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 1px;
+}
+
+.input::placeholder{
+      color: var(--primary-blue-light);
+}

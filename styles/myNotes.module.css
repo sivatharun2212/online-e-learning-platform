@@ -1,0 +1,83 @@
+.bodyContainer {
+      display: flex;
+      width: 100%;
+      height: calc(100% - 80px);
+}
+
+.mainContent {
+      padding: 20px 50px;
+      width: calc(100% - 250px);
+}
+
+.fullMainContainer {
+      width: 100%;
+}
+
+.noteContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+}
+
+.notesContainer {
+      display: flex;
+      flex-direction: column;
+      background-image: linear-gradient(to right, #7d6752, #235a86);
+      border-radius: 10px;
+      overflow: hidden;
+
+}
+
+
+
+.buttonLrg {
+      width: 160px;
+      height: 40px;
+      background-color: var(--primary-blue);
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-family: 'Signika Negative', sans-serif;     
+      font-weight: 700;
+      cursor: pointer;
+}
+
+.header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+}
+
+.btns {
+      display: flex;
+      width: 200px;
+      height: 30px;
+      justify-content: space-between;
+}
+.btn {
+      width: 80px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      color: var(--primary-blue);
+      cursor: pointer;
+
+}
+
+.title {
+      color: rgb(255, 255, 255);
+
+      font-family: 'Signika Negative', sans-serif;     
+
+}
+
+.notes {
+      width: 100%;
+      padding: 20px;
+      color: black;
+      font-size: 20px;
+}
+

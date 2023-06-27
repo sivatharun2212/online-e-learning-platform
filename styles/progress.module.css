@@ -1,0 +1,87 @@
+.bodyContainer {
+      display: flex;
+      width: 100%;
+      height: calc(100% - 80px);
+}
+
+.mainContent {
+      padding: 20px 50px;
+      width: calc(100% - 250px);
+}
+
+.fullMainContainer {
+      width: 100%;
+}
+
+.progressesContainer {
+      width: 100%;
+      height: calc(100% - 40px);
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      
+}
+
+.progressContainer {
+      width: 100%;
+      height: 100px;
+      background-image: linear-gradient(to right, #7d6752, #235a86);
+      opacity: 0.6;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 20px;
+}
+
+.progressContent {
+      height: 100%;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-evenly;
+}
+
+.title {
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 1px;
+}
+
+.progressBar {
+      width: 100%;
+      height: 15px;
+      background-color: rgb(141, 141, 155);
+      border-radius: 10px;
+}
+
+.innerProgress {
+      width: 0%;
+      height: 100%;
+      background-color: var(--primary-blue);
+      border-radius: 10px;
+
+}
+
+.percentage {
+      color: white;
+      font-family: 'Poppins', sans-serif;
+
+}
+
+.buttonLrg {
+      width: 150px;
+      height: 40px;
+      background-color: var(--primary-blue);
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-family: 'Signika Negative', sans-serif;     
+      font-weight: 700;
+      cursor: pointer;
+      position: absolute;
+      bottom: 30px;
+}
